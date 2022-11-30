@@ -5,15 +5,16 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
 	name="EULANGS",
-	version="1.0.0",
+	version="1.0.1",
 	author="Simon Hengchen",
 	author_email="simon@iguanodon.ai",
 	description="This package allows you to import a list of official EU languages.",
 	long_description = long_description,
 	long_description_content_type = "text/markdown",
+    url = "https://github.com/iguanodon-ai/EULANGS",
 	classifiers = [
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
     #package_dir = {"": ".EULANGS"},
